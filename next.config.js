@@ -1,5 +1,10 @@
 module.exports = {
-  reactStrictMode: true,
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/breadcrumbs',
+  images: {
+    unoptimized: true,
+  },
   env: {
     NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN: process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN,
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -8,3 +13,4 @@ module.exports = {
     NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
   },
 };
+
