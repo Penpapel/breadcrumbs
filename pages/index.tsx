@@ -1,0 +1,1 @@
+// Entry point for the app (can import from app/page.tsx)
